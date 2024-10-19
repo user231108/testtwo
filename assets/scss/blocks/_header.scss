@@ -1,0 +1,53 @@
+.header {
+      .header_wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .header_logo {
+        color: $dark_black;
+        font-family: $varela_round;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    .header_list {
+        display: flex;
+        gap: 36px;
+        color: $light_black;
+        font-family: $open_sans;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .header_cart {
+        display: flex;
+    }
+
+    .cart_suptitle {
+        color: $light_black;
+        font-family: $open_sans;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .cart_foto {
+        width: 32px;
+        height: 32px;
+    }
+
+    .cart_btn {
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        background: $citrus;
+        color: $white;
+        font-family: $open_sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+}
